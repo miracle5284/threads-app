@@ -1,0 +1,14 @@
+<form class="flex flex-col items-end gap-4 py-4" (submit)="submitForm($event)">
+  <textarea
+    name="commentText"
+    [placeholder]="placeholder"
+    rows="3"
+    class="w-full border border-slate-900 rounded-md px-3 py-2">
+  </textarea>
+
+  <button type="submit"
+          class="inline-block rounded-sm border border-current px-4 py-1 text-sm font-medium text-indigo-600 transition hover:scale-110 hover:rotate-2 focus:ring-3 focus:outline-hidden"
+  >
+    {{ submitAction }}
+  </button>
+</form>

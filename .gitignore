@@ -1,0 +1,79 @@
+# Node-related
+**/node_modules
+**/dist
+**/build
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS and editor cruft
+.DS_Store
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Tests
+**/coverage
+**/.nyc_output
+
+# Env files
+threads-backend/src/.env
+.env.*.local
+
+# Temp files
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+**/tmp
+/out-tsc
+/bazel-out
+
+# Node
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+
+# Visual Studio Code
+.history/*
+
+# Miscellaneous
+threads-ui/.angular/cache
+threads-ui/.sass-cache/
+threads-ui/connect.lock
+threads-ui/coverage
+threads-ui/libpeerconnection.log
+threads-ui/testem.log
+threads-ui/typings
+
+# System files
+threads-ui/Thumbs.db
